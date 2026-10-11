@@ -27,3 +27,12 @@ for (let i = 0; i < numbers.length; i++) {
     const number = numbers[i];
     console.log(number);
 }
+
+// 5.function  
+
+function multiple(num1, num2) {
+    const result = num1 * num2;
+    return result;
+}
+multiple(10, 5)
+
