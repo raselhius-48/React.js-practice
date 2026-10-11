@@ -34,5 +34,15 @@ function multiple(num1, num2) {
     const result = num1 * num2;
     return result;
 }
-multiple(10, 5)
+const output = multiple(10, 5)
+
+console.log(output);
+
+//  6. object 
+const student = {
+    name: 'Salib khan'
+    age: 32,
+
+    movies: ['king khan', 'Dhakar Master']
+}
 
