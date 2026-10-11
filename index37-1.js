@@ -14,3 +14,10 @@ else if () {
 else {
 
 }
+
+// 3.array declare
+// indexe, length.push
+
+const numbers = [89, 35, 98, 12];
+numbers[0] = 56;
+
