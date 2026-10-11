@@ -2,3 +2,15 @@
 const FatherName = 'abu siddik';
 let seation = 'rainy';
 seation = 'winter';
+
+// 2.condition 
+// 6 basic condition : >,< , ===, <=, >= ,multiple condition && , || , 
+if (FatherName === 'abu siddik' || seation === 'rainy') {
+
+}
+else if () {
+
+}
+else {
+
+}
