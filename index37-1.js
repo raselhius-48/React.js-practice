@@ -42,7 +42,15 @@ console.log(output);
 const student = {
     name: 'Salib khan'
     age: 32,
-
     movies: ['king khan', 'Dhakar Master']
 }
+//  3 ways to access proberty by name 
+console.log(student.age); //direct by property 
+console.log(student['age']); //access via property name string
+const my variable = 'age';
+console.log(student.[variable]); // access via property name in a variable
+
+
+
+
 
