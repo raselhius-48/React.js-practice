@@ -21,3 +21,9 @@ else {
 const numbers = [89, 35, 98, 12];
 numbers[0] = 56;
 
+// 4. for loop
+
+for (let i = 0; i < numbers.length; i++) {
+    const number = numbers[i];
+    console.log(number);
+}
