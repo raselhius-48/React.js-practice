@@ -51,7 +51,7 @@ const my variable = 'age';
 console.log(student.[variable]); // access via property name in a variable
 
 
-// template String
+1. // template String
 const numbers = [89, 35, 98, 12]
 const student = {
     name: 'Salib khan'
@@ -61,4 +61,24 @@ const student = {
 const about = `my name is ${student.name} age of ${student.age} has number ${numbers[2]} also liked moves ${student.moves[0]}`;
 
 console.log(about)
+
+// 2. arrow function
+// type 1-> whithout paramitter
+const getFiftyFive = () => 55;
+// type 2-> parametter including
+const AddSixtyFive = num => num + 65;
+// type-3
+const isEven = x => x % 2 == 0;
+// type:-4
+const AddThree = (x, y, z) => x + y + z;
+// type-5
+const doMath = (num1, num2) => {
+    const sum = num1 + num2;
+    return sum;
+}
+doMath(45, 50);
+
+
+
+
 
