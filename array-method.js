@@ -32,3 +32,7 @@ console.log(cheap);
 // type-2
 const specificName = products.filter(p => p.name.includes('n'));
 console.log(specificName)
+
+// 4.find
+const special = products.find(b => b.name.includes('n'));
+console.log(special)
