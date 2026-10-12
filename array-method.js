@@ -10,3 +10,17 @@ const brands = products.map(pro => pro.brind);
 console.log(brands);
 const prices = products.map(product => product.price);
 console.log("prices")
+
+// forEach used system
+// type 1
+const brands = products.forEach(pro => console.log(pro));
+console.log(brands);
+
+// type 2
+const prices = products.forEach(product => product.color);
+console.log("prices")
+// type 3
+products.forEach(product => {
+
+})
+
