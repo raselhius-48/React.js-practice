@@ -78,6 +78,23 @@ const doMath = (num1, num2) => {
 }
 doMath(45, 50);
 
+//spread operator
+// type-1 array in array
+const newNumber = [...numbers];
+numbers.push(99);
+numbers.push(99);
+numbers.push(99);
+console.log(newNumber);
+console.log(numbers)
+
+// create a new array from an older array add an element
+const currentNumers = [...numbers, 55]
+
+console.log(numbers)
+console.log(newNumber)
+console.log(currentNumers)
+
+
 
 
 
