@@ -24,3 +24,11 @@ products.forEach(product => {
 
 })
 
+// filter
+// type 1
+const cheap = products.filter(product => product.price =< 5000);
+console.log(cheap);
+
+// type-2
+const specificName = products.filter(p => p.name.includes('n'));
+console.log(specificName)
