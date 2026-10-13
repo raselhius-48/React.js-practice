@@ -28,6 +28,14 @@ const [frist, second] = boxify(90, 34);
 // or
 console.log(boxify(90, 34));
 
+const student = {
+    name: 'Rakib',
+    age: 32,
+    movies: ['king khan', 'Dhaker Mastan']
+}
+
+const [fristMovie, secondMovie] = student.movies;
+
 
 
 
