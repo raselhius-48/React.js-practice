@@ -42,6 +42,29 @@ const [fristMovie, secondMovie] = student.movies;
 const { name, age } = { name: 'alu', age: 14 }
 const { name, age } = { id: 12, name: 'alu', salary: 3400, age: 14 }
 
+// type --2
+const employee {
+    ide:'VS Code',
+    designation:'developer',
+    machine:'mac',
+    languase: ['html', 'css', 'js']
+    specification = {
+        height: 66,
+        weight: 67,
+        address: 'kumar khali',
+        drink: 'water'
+        watch: {
+            color: 'black',
+            price: 500,
+            brand: 'garmin'
+        }
+
+    }
+}
+const { machine, ide } = employee;
+const { weight, address } = employee.specification;
+const { brand } = employee.specification.watch
+
 
 
 
