@@ -37,5 +37,11 @@ const student = {
 const [fristMovie, secondMovie] = student.movies;
 
 
+// object destructuting 
+// type-1
+const { name, age } = { name: 'alu', age: 14 }
+const { name, age } = { id: 12, name: 'alu', salary: 3400, age: 14 }
+
+
 
 
