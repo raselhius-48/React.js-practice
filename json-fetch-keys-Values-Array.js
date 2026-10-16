@@ -17,3 +17,8 @@ console.log(parseJson)
 fetch('url')
     .then(res => res.JSON())
     .then(data => console.log(data))
+
+// 3.keys
+const keys = Object.keys(student);
+console.log(keys)
+
