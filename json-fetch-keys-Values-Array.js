@@ -22,3 +22,6 @@ fetch('url')
 const keys = Object.keys(student);
 console.log(keys)
 
+// 4. values
+const values = Object.values(student);
+console.log(values)
