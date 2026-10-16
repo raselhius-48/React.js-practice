@@ -25,3 +25,10 @@ console.log(keys)
 // 4. values
 const values = Object.values(student);
 console.log(values)
+
+
+// for
+
+const numbers = [23, 54, 45, 30, 60, 78]
+numbers.forEach(num => console.log(num))
+numbers.map(num => num * 2)
